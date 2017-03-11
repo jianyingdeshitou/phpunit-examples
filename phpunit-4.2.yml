@@ -1,0 +1,8 @@
+v4.2:
+    image: dev-php5-apache2-d8
+#     command: /cmd/phpunit.sh
+    command: /cmd/start.sh
+    volumes:
+        - './cmd:/cmd'
+#         - './app:/var/www/html'
+        - './4.2:/test'
