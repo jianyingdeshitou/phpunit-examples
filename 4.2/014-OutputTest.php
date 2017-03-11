@@ -1,6 +1,7 @@
 <?php
 
 // 对函数或方法的输出进行测试
+// 注意：在严格模式下，本身产生输出的测试将会失败。
 class OutputTest extends PHPUnit_Framework_TestCase
 {
     public function testExpectFooActualFoo()
