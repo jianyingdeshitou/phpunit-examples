@@ -1,9 +1,6 @@
 <?php
 
 // 数组比较失败时生成的错误相关信息输出
-// 数组中只有一个值不同，
-// 但其他值也都同时显示出来，
-// 以提供关于错误发生的位置的上下文信息。
 class ArrayDiffTest extends PHPUnit_Framework_TestCase
 {
     public function testEquality() {
@@ -44,8 +41,12 @@ class ArrayDiffTest extends PHPUnit_Framework_TestCase
  * "/test/015-ArrayDiffTest.php:10"
  *
  * FAILURES!
- * ------------------------------------------------
  * Tests: 1, Assertions: 1, Failures: 1.
+ * ------------------------------------------------
+ * 数组中只有一个值不同，
+ * 但其他值也都同时显示出来，
+ * 以提供关于错误发生的位置的上下文信息。
+ * ------------------------------------------------
  */
 
 ?>

@@ -1,9 +1,6 @@
 <?php
 
 // 长数组比较失败时生成的错误相关信息输出
-// 当生成的输出很长而难以阅读时，
-// PHPUnit 将对其进行分割，
-// 并在每个差异附近提供少数几行上下文信息。
 class LongArrayDiffTest extends PHPUnit_Framework_TestCase
 {
     public function testEquality() {
@@ -42,6 +39,10 @@ class LongArrayDiffTest extends PHPUnit_Framework_TestCase
  *
  * FAILURES!
  * Tests: 1, Assertions: 1, Failures: 1.
+ * ------------------------------------------------
+ * 当生成的输出很长而难以阅读时，
+ * PHPUnit 将对其进行分割，
+ * 并在每个差异附近提供少数几行上下文信息。
  * ------------------------------------------------
  */
 
